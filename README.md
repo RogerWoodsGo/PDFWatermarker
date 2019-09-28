@@ -1,17 +1,14 @@
 # PDFWatermarker
-Easy User Pdf watermark tools based on PyPDF2 and Python3
+Easy User Pdf watermark tools based on PyPDF2 and Python3, especially for MACOS and Linux
 
 # Required
+reportlab and PyPDF2 required
 
-::
-
-pip install reportlab
-pip install PyPDF2
+    pip install reportlab
+    pip install PyPDF2
 
 
 # Useage
-
-::
 
     usage: python pdf_watermark.py [-h] [--rotate_angle ROTATE_ANGLE]
                                [--font_size FONT_SIZE] [--opacity OPACITY]
@@ -36,17 +33,18 @@ pip install PyPDF2
 
 
 # Notes
-if error happened Like this::
+if error happened Like this:
 
     File "/usr/local/lib/python3.7/site-packages/PyPDF2/utils.py", line 238, in b_
         r = s.encode('latin-1')
     UnicodeEncodeError: 'latin-1' codec can't encode characters in position 8-9: ordinal not in range(256)
 
-You may modify file "/usr/local/lib/python3.7/site-packages/PyPDF2/utils.py" line 238 from ::
+You may modify file "/usr/local/lib/python3.7/site-packages/PyPDF2/utils.py" line 238 from :
 
     r = s.encode('latin-1')
-
-to ::
+    
+to :
+    
     try:
         r = s.encode('latin-1')
     except:
