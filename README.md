@@ -2,13 +2,17 @@
 Easy User Pdf watermark tools based on PyPDF2 and Python3
 
 # Required
+
 ::
+
 pip install reportlab
 pip install PyPDF2
 
 
 # Useage
+
 ::
+
 usage: python pdf_watermark.py [-h] [--rotate_angle ROTATE_ANGLE]
                                [--font_size FONT_SIZE] [--opacity OPACITY]
                                [--color COLOR]
@@ -30,8 +34,10 @@ optional arguments:
   --watermark_string WATERMARK_STRING
                         Watermark String
 
+
 # Notes
 if error happened Like this::
+
 
 File "/usr/local/lib/python3.7/site-packages/PyPDF2/utils.py", line 238, in b_
     r = s.encode('latin-1')
