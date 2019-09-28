@@ -1,5 +1,5 @@
 # PDFWatermarker
-Easy User Pdf watermark tools based on PyPDF2 and Python3, especially for MACOS and Linux
+Easy Use Pdf watermark tools based on PyPDF2 and Python3, especially for MACOS and Linux
 
 # Required
 reportlab and PyPDF2 required
